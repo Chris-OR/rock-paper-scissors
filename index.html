@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="flex-container">
+        <div class="player">
+            <div class="choice-title">Choose Your Weapon</div>
+            <div class="player-selections">
+                <button class="selector-button" value="rock"><img src="https://www.eosworldwide.com/wp-content/uploads/2020/01/Rocks_for_all_simplified.jpg" alt=""></button>
+                <button class="selector-button" value="paper"><img src="https://www.collinsdictionary.com/images/full/paper_111691001.jpg" alt=""></button>
+                <button class="selector-button" value="scissors"><img src="https://m.media-amazon.com/images/I/31tfpkeODQL._AC_.jpg" alt=""></button>
+            </div>
+            
+        </div>
+        <div class="computer">
+            <div class="choice-title">Computer's Choice...</div>
+            <div class="computer-selection">
+                <button class="selector-button computer-button" disabled><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJP8XFMoDP68NI_d-_RP2xv-0GYCq2-sz8iDCn_KQ2fGTiKpQ6okpZNdMnuAwuIBjLS58&usqp=CAU" alt=""></button>
+            </div>
+        </div>   
+    </div>
     
+    <div class="results">
+        
+    </div>
+    
+    <div class="scores">
+        <div class="score player-score">Score: 0</div>
+        <div class="score computer-score">Score: 0</div>
+    </div>
+
+    <div class="game-over" hidden>
+        <button class="restart">Play Again</button>
+    </div>
+
 </body>
+
+<script src="game-logic.js"></script>
 </html>

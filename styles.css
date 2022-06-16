@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.player {
+    /* align-items: center; */
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.player-selections {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.computer {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+}
+
+.computer-selection {
+    display: flex;
+    justify-content: center;
+}
+
+.choice-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.selector-button {
+    border-radius: 8px;
+    background-color: white;
+    border-width: 2px;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.score {
+    flex: 1;
+    font-size: 28px;
+    text-align: center;
+}
+
+.results {
+    font-size: 24px;
+    text-align: center;
+    padding: 8px;
+}
+
+.game-over {
+    font-size: 24px;
+    text-align: center;
+}
+
+.restart {
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 4px 8px;
+}
